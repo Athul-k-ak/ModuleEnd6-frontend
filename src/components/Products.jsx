@@ -10,7 +10,7 @@ const Products = () => {
     const fetchProducts = async () => {
       try {
         const token = localStorage.getItem("auth");
-        const response = await fetch("http://localhost:3000/products", {
+        const response = await fetch("https://moduleend6-backend.onrender.com/products", {
           headers: {
             Authorization: `Bearer ${token}`, // Pass the token for authentication
           },

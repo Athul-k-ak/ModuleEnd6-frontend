@@ -15,7 +15,7 @@ const Signup = () => {
     setError("");
 
     try {
-      const response = await fetch("http://localhost:3000/user", {
+      const response = await fetch("https://moduleend6-backend.onrender.com/user", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(user),
