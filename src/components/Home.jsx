@@ -27,10 +27,11 @@ const Home = () => {
 
   // ✅ Sample images for banner
   const banners = [
-    "./src/assets/banner1.jpg",
-    "./src/assets/banner2.jpeg",
-    "./src/assets/banner3.jpeg",
+    "/assets/banner1.jpg",
+    "/assets/banner2.jpeg",
+    "/assets/banner3.jpeg",
   ];
+  
 
   // ✅ Offers Section
   const offers = [
