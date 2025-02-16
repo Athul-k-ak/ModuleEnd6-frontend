@@ -1,0 +1,59 @@
+.custom-navbar {
+  background: linear-gradient(90deg, #343a40, #1d1f21);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+}
+
+.brand-name {
+  font-size: 22px;
+  color: #f8f9fa;
+  transition: color 0.3s;
+}
+
+.brand-name:hover {
+  color: #ffcc00;
+}
+
+.navbar-nav .nav-link {
+  color: #f8f9fa;
+  font-size: 18px;
+  transition: color 0.3s, transform 0.2s;
+  padding: 8px 15px;
+}
+
+.nav-hover:hover {
+  color: #ffcc00 !important;
+  transform: translateY(-2px);
+}
+
+.login-link {
+  background: #ffcc00;
+  color: #1d1f21 !important;
+  border-radius: 20px;
+  padding: 5px 15px;
+  transition: background 0.3s;
+}
+
+.login-link:hover {
+  background: #ffdb4d;
+}
+
+.logout-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 15px;
+  font-size: 16px;
+  transition: background 0.3s ease-in-out;
+}
+
+.logout-btn:hover {
+  background: #c82333;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
