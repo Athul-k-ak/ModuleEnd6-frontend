@@ -54,7 +54,7 @@ const Products = () => {
               <img src={product.url} alt={product.name} className="product-image" />
               <h3 className="product-title">{product.name}</h3>
               <p className="product-price">${product.price.toFixed(2)}</p>
-              <button className="buy-btn">Buy Now</button>
+              <button className="buy-btn">Add to Cart</button>
             </div>
           ))}
         </div>

@@ -1,6 +1,6 @@
 /* General Page Styling */
 .products-page {
-  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  background: url("https://t4.ftcdn.net/jpg/06/91/05/19/360_F_691051962_GFhQPOAXABmf7l706q89b2PFh6FnB1kI.jpg") no-repeat center center/cover;
   color: white;
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
@@ -63,7 +63,7 @@
 
 /* Product Card */
 .product-card {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(66, 65, 65, 0.1);
   backdrop-filter: blur(10px);
   padding: 15px;
   border-radius: 10px;
@@ -104,10 +104,10 @@
 
 /* Buy Button */
 .buy-btn {
-  background: #0080ff;
+  background: #ffd900;
   border: none;
   padding: 10px 20px;
-  color: white;
+  color: black;
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
