@@ -28,7 +28,7 @@ const App = () => {
   <div className="container-fluid">
     {/* Brand Logo */}
     <Link className="navbar-brand d-flex align-items-center" to="/">
-      <img src="/public/assets/AK.jpg" alt="Brand Logo" width="45" height="45" className="me-2 rounded-circle" />
+     
       <span className="fw-bold brand-name">ShopEase</span>
     </Link>
 
